@@ -23,6 +23,7 @@ export default {
   },
   methods:{
     preview(){
+    let a  = '1'
       // this.url = "../../static/pdf/compressed.tracemonkey-pldi-09.pdf";
       // this.dialogVisible=true
     }
