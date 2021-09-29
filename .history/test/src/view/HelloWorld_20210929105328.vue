@@ -17,7 +17,7 @@ export default {
   data () {
     return {
       msg: 'Welcome to Your Vue.js App',
-      url:"1111",
+      url:"",
       dialogVisible:false
     }
   },
