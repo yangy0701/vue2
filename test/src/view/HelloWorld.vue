@@ -2,17 +2,21 @@
   <div class="hello">
 
    <button @click="preview">预览</button>
+   <expandContent></expandContent>
    <!-- <review></review> -->
+   
   </div>
 </template>
 
 <script>
 import {mixins} from "../methods/minxin"
 // import review from "./pdf"
+import expandContent from '../components/expandContent'
 export default {
   name: 'HelloWorld',
   components:{
-    review
+    // review,
+    expandContent
   },
   data () {
     return {
